@@ -1,55 +1,16 @@
-🍽️ DABIZ_EATZ — Responsive Food Ordering Web App
+# React + Vite
 
-DABIZ_EATZ is a clean, fast, and responsive food-ordering web application that allows users to browse meals, add items to their cart, view a real-time cart indicator dot, enter delivery details, and complete their order seamlessly.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✨ Features
+Currently, two official plugins are available:
 
-🍕 Food Selection
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Browse a variety of foods with images, prices, and short descriptions.
+## React Compiler
 
-Organized and easy to navigate.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🛒 Add to Cart
+## Expanding the ESLint configuration
 
-Add any food item to your cart instantly.
-
-Increment or decrement quantities.
-
-Cart data is managed globally using Context API.
-
-🔴 Cart Indicator Dot
-
-A small notification dot appears on the cart icon when at least one item is in the cart.
-
-Automatically updates in real-time using React state.
-
-🚚 Delivery Details Page
-
-Enter your name, phone number, address, and delivery notes.
-
-Clean and simple form UI.
-
-📱 Fully Responsive Design
-
-Works smoothly on mobile, tablet, and desktop screens.
-
-Uses modern layout techniques for flexibility.
-
-📌 Footer Section
-
-Includes About, Contact, Support, and social links.
-
-Finishes the app with a professional look.
-
-🛠️ Technologies Used
-
-React + Vite
-
-JavaScript (ES6)
-
-Context API (for global cart state)
-
-CSS / Tailwind (depending on your setup)
-
-Reusable Components Architecture
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
